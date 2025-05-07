@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+# Personal Portfolio Website
 
 This repository contains the source code for a dynamic personal portfolio built using the **MERN stack** (MongoDB, Express, React, Node.js). The platform allows visitors to explore projects, skills, and experiences, while offering a secure admin dashboard to manage all portfolio content. It uses **Cloudinary** for image hosting and **Nodemailer** for password reset functionality.
 
@@ -47,4 +47,8 @@ This repository contains the source code for a dynamic personal portfolio built 
 
 * **Frontend**: [Vercel](https://vercel.com/)
 * **Backend**: [Render](https://render.com/)
+
+  ![Screenshot (62)](https://github.com/user-attachments/assets/054f7370-ddcd-4ff7-b3fc-fef3095b77d0)
+
+
 
