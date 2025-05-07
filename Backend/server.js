@@ -39,7 +39,11 @@ app.use(
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:4000"],
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:4000",
+      "https://personal-portfolio-frontend-tau.vercel.app/",
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
