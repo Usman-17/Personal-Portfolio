@@ -1,0 +1,37 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f7f7;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cfcaca;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #afafaf;
+}
+/* Scroll Bar End */
+
+.avatar-update-btn::file-selector-button {
+  width: 100%;
+  padding: 7px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 1px solid hsl(222.2 47.4% 11.2%);
+  background: hsl(222.2 47.4% 11.2%);
+  cursor: pointer;
+  color: #fff;
+}
+.avatar-update-btn::file-selector-button:hover {
+  background: transparent;
+  color: #111;
+}
