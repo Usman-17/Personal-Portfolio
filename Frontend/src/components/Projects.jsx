@@ -16,8 +16,8 @@ const Projects = () => {
   if (error) {
     return (
       <div className="p-4 max-w-4xl mx-auto py-5">
-        <div className="text-center text-red-500">
-          Error loading project data: {error.message}
+        <div className="text-center text-yellow-500">
+          Please wait 30 seconds, the server is loading...
         </div>
       </div>
     );

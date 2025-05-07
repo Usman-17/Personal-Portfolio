@@ -14,8 +14,8 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        // target: "http://localhost:8000",
-        target: "https://personal-portfolio-gamma-flax-60.vercel.app/",
+        target: "http://localhost:8000",
+        // target: "https://personal-portfolio-gamma-flax-60.vercel.app/",
         changeOrigin: true,
         secure: false,
       },

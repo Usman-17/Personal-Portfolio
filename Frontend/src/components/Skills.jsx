@@ -3,17 +3,7 @@ import InViewAnimation from "./InViewAnimation";
 import SectionHeading from "./SectionHeading";
 
 const Skills = () => {
-  const { skills, error } = useGetAllSkills();
-
-  if (error) {
-    return (
-      <div className="p-4 max-w-4xl mx-auto py-10">
-        <div className="text-center text-red-500">
-          Error loading user data: {error.message}
-        </div>
-      </div>
-    );
-  }
+  const { skills } = useGetAllSkills();
 
   return (
     <>

@@ -4,20 +4,10 @@ import InViewAnimation from "./InViewAnimation";
 import TimelineSkeleton from "./Skeletons/TimelineSkeleton";
 
 const Timeline = () => {
-  const { timelines, error, isLoading } = useGetAllTimelines();
+  const { timelines, isLoading } = useGetAllTimelines();
 
   if (isLoading) {
     return <TimelineSkeleton />;
-  }
-
-  if (error) {
-    return (
-      <div className="p-4">
-        <div className="text-center text-red-500">
-          Error loading timelines: {error.message}
-        </div>
-      </div>
-    );
   }
 
   return (
