@@ -42,13 +42,14 @@ This repository contains the source code for a dynamic personal portfolio built 
 
 ---
 
-
 ## 🚀 Deployment Options
 
-* **Frontend**: [Vercel](https://vercel.com/)
-* **Backend**: [Render](https://render.com/)
+* **Frontend**: [Vercel - Personal Portfolio](https://portfolio-muhammadusman.vercel.app/)
 
-  ![Screenshot (62)](https://github.com/user-attachments/assets/054f7370-ddcd-4ff7-b3fc-fef3095b77d0)
+* **Admin Panel**: [Vercel - Admin Dashboard](https://portfolio-usman-dashboard.vercel.app/)
+
+* **Backend**: [Render - Personal Portfolio Backend](https://render.com/)
 
 
+![Screenshot (62)](https://github.com/user-attachments/assets/054f7370-ddcd-4ff7-b3fc-fef3095b77d0)
 
