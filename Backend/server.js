@@ -42,7 +42,8 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:4000",
-      "https://personal-portfolio-frontend-tau.vercel.app/",
+      "https://portfolio-muhammadusman.vercel.app/",
+      "https://portfolio-usman-dashboard.vercel.app/",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
